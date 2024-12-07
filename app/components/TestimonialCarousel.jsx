@@ -44,7 +44,7 @@ export default function Testimonials() {
     <div className="w-full max-w-7xl mx-auto px-4 py-16">
       <div className="text-center mb-16">
         <h2 className="text-3xl md:text-4xl font-bold text-center">
-          আমাদের <span className="text-[#FF9900] ">লার্নারদের</span> কাছে শুনুন
+          আমাদের <span className="">লার্নারদের</span> কাছে শুনুন
         </h2>
       </div>
 
@@ -67,7 +67,7 @@ export default function Testimonials() {
                   {testimonial.content}
                 </p>
               </div>
-              <Quote className="w-6 h-6 text-[#FF9900] flex-shrink-0" />
+              <Quote className="w-6 h-6 text-blue-600 flex-shrink-0" />
             </div>
           </Card>
         ))}

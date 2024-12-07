@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { hindSiliguri } from "../layout";
 
 export default function ComputerRequirements() {
   const requirements = [
@@ -30,11 +31,13 @@ export default function ComputerRequirements() {
 
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-16">
-      <h1 className="text-4xl font-bold text-center mb-12">
+      <h1
+        className={`text-4xl font-bold text-center mb-12 ${hindSiliguri.className}`}
+      >
         কী কী{" "}
-        <span className="text-yellow-400 relative">
+        <span className=" relative">
           থাকতে
-          <span className="absolute -bottom-1 left-0 w-full h-1 bg-yellow-400"></span>
+          <span className="absolute -bottom-1 left-0 w-full h-1 "></span>
         </span>
         <span> হবে</span>
       </h1>
@@ -56,7 +59,9 @@ export default function ComputerRequirements() {
                 height={64}
               />
             </div>
-            <h2 className="text-lg font-medium text-gray-800">
+            <h2
+              className={`text-lg font-medium text-gray-800 ${hindSiliguri.className}`}
+            >
               {requirement.title}
             </h2>
           </div>

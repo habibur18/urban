@@ -1,56 +1,57 @@
 import Image from "next/image";
+import { hindSiliguri } from "../layout";
 
 const features = [
   {
-    icon: "/1.png",
+    icon: "/ben/৪ মাসের স্টাডিপ্ল্যান.png",
     title: "৪ মাসের স্টাডিপ্ল্যান",
     description: "একদম বিগিনার লেভেল থেরেই আপডেটেড কারিকুলাম",
   },
   {
-    icon: "/2.png",
+    icon: "/ben/35 টি লাইভ ক্লাস.png",
     title: "৩২ টি লাইভ ক্লাস",
     description: "ইন্ডাস্ট্রি এক্সপার্টদের কাছে শিখুন লাইভে",
   },
   {
-    icon: "/3.png",
+    icon: "/ben/রিয়েল লাইফ প্রজেক্ট.png",
     title: "৪ টি রিয়েল লাইফ প্রজেক্ট",
     description:
       "ইন্ডাস্ট্রি স্ট্যান্ডার্ড প্রজেক্ট এড করুন পিডিএফ, এক্সেল সবার চেয়ে এগিয়ে",
   },
   {
-    icon: "/4.png",
+    icon: "/ben/প্রোগ্রেস ট্র্যাকিং.png",
     title: "প্রোগ্রেস ট্র্যাকিং",
     description: "নিজের বোর্ড দেখুন নিজের গতিশীল উন্নয় প্রগ্রেস",
   },
   {
-    icon: "/5.png",
+    icon: "/ben/সাপোর্ট ক্লাস.png",
     title: "উইকলি ২ দিন সাপোর্ট ক্লাস",
     description: "প্র্যাক্টিস করতে গিয়ে পাবেন লাইভ সাপোর্ট",
   },
   {
-    icon: "/6.png",
+    icon: "/ben/কমিউনিটি সাপোর্ট.png",
     title: "কমিউনিটি সাপোর্ট",
     description: "থাকুন প্রোগ্রামিং কমিউনিটির সাথে অলটাইমস",
   },
   {
-    icon: "/7.png",
+    icon: "/ben/লাইফটাইম এক্সেস.png",
     title: "লাইফটাইম এক্সেস",
     description:
       "প্রিরেকর্ডেড ভিডিও, রিসোর্স এবং ক্লাস রেকর্ডস এ থাকবে লাইফ টাইম এক্সেস",
   },
   {
-    icon: "/9.png",
+    icon: "/ben/জব মার্কেট গাইডলাইন.png",
     title: "জব মার্কেট গাইডলাইন",
     description:
       "ইন্ডাস্ট্রি এক্সপার্টদের কাছে পান জব মার্কেট ব্রেক করার পূর্ণাঙ্গ নির্দেশনা",
   },
   {
-    icon: "/10.png",
+    icon: "/ben/মার্কেটপ্লেস গাইডলাইন.png",
     title: "মার্কেটপ্লেস গাইডলাইন",
     description: "কীভাবে মার্কেটপ্লেস কাজ করবেন, পাবেন সে সম্পর্কিত গাইডলাইন",
   },
   {
-    icon: "/11.png",
+    icon: "/ben/সার্টিফিকেট.png",
     title: "সার্টিফিকেট",
     description:
       "কোর্স শেষ করে পাবেন সেয়ারেবল কোর্স কমপ্লিশন এবং এসেসমেন্ট সার্টিফিকেট",
@@ -59,7 +60,7 @@ const features = [
 
 export default function CourseFeatures() {
   return (
-    <section>
+    <section className={`${hindSiliguri.className}`}>
       <div className="w-full max-w-7xl mx-auto px-4 py-16 bg-gray-50">
         <h2 className="text-3xl font-bold text-center mb-12 relative">
           কোর্সে আপনি পাচ্ছেন

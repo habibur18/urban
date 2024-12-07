@@ -1,4 +1,5 @@
 import { CheckCircle2 } from "lucide-react";
+import { hindSiliguri } from "../layout";
 
 const eligibilityPoints = [
   {
@@ -17,7 +18,9 @@ const eligibilityPoints = [
 
 export default function CourseEligibility() {
   return (
-    <section className="w-full max-w-7xl mx-auto px-4 py-16">
+    <section
+      className={`w-full max-w-7xl mx-auto px-4 py-16 ${hindSiliguri.className}`}
+    >
       <h2 className="text-3xl font-bold text-center mb-12">
         কোর্সটি আপনারই জন্য
       </h2>

@@ -1,11 +1,14 @@
 import Image from "next/image";
+import { hindSiliguri } from "../layout";
 
 export default function CertificateSection() {
   return (
     <div className="w-full max-w-7xl mx-auto px-4 py-16">
       <div className="text-center mb-8">
-        <h2 className="text-4xl font-bold text-[#FF9900] mb-4">সার্টিফিকেট</h2>
-        <p className="text-lg text-gray-700">
+        <h2 className={`text-4xl font-bold  mb-4 ${hindSiliguri.className}`}>
+          সার্টিফিকেট
+        </h2>
+        <p className={`text-lg text-gray-700 ${hindSiliguri.className}`}>
           কোর্স শেষে পেয়ে যান পেয়ারেবল কোর্স কমপ্লিশন এবং এসেসমেন্ট
           সার্টিফিকেট
         </p>

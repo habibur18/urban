@@ -1,57 +1,60 @@
 import Image from "next/image";
+import { hindSiliguri } from "../layout";
 
 export default function DataScienceTools() {
   const tools = [
     {
       name: "Python",
       description: "Programming Language",
-      image: "/python.png",
+      image: "/tools/111.png",
     },
     {
       name: "PyCharm",
       description: "IDE for Python",
-      image: "/pycharm.png",
+      image: "/tools/222.png",
     },
     {
       name: "Jupyter Notebook",
       description: "Interactive Computing",
-      image: "/Jupyter Notebook.png",
+      image: "/tools/333.png",
     },
     {
       name: "NumPy",
       description: "Numerical Computing Library",
-      image: "/Numpy.png",
+      image: "/tools/444.png",
     },
     {
       name: "Pandas",
       description: "Data Manipulation Library",
-      image: "/Pandas.png",
+      image: "/tools/555.png",
     },
     {
       name: "Matplotlib",
       description: "Plotting Library",
-      image: "/Matplotlib.png",
+      image: "/tools/666.png",
     },
     {
       name: "Scikit-learn",
       description: "Machine Learning Library",
-      image: "/Scikit-Learn (Sklearn).png",
+      image: "/tools/777.png",
     },
     {
       name: "TensorFlow",
       description: "Machine Learning Framework",
-      image: "/Tensorflow.png",
+      image: "/tools/888.png",
     },
     {
       name: "Seaborn",
       description: "Statistical Visualization",
-      image: "/Seaborn.png",
+      image: "/tools/999.png",
     },
   ];
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-8">
-      <h1 className="text-3xl font-bold text-center mb-8">
+      <h1
+        className={`text-3xl font-bold text-center mb-8 ${hindSiliguri.className}`}
+      >
         যেসব ট্যুলস ও টেকনোলোজি শিখবেন
       </h1>
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
