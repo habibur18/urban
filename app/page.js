@@ -8,6 +8,7 @@ import CourseLanding from "./components/CourseLanding";
 import DataScienceTools from "./components/DataScienceTools";
 import HeroSection from "./components/HeroSection";
 import InstructorCard from "./components/InstructorCard";
+import TestimonialCarousel from "./components/TestimonialCarousel";
 
 export default function Home() {
   return (
@@ -40,6 +41,9 @@ export default function Home() {
       </div>
       <div className="mb-32">
         <CertificateSection />
+      </div>
+      <div className="mb-32">
+        <TestimonialCarousel />
       </div>
     </main>
   );
