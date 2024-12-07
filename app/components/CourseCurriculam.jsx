@@ -296,7 +296,7 @@ export default function CourseCurriculum() {
   const curriculum = [
     {
       title: "সপ্তাহ ১-২: ডেটা সায়েন্সের প্রাথমিক ধারণা এবং পাইথন প্রোগ্রামিং",
-      instructor: "Firoj Kawser Jubayer",
+      instructor: "Shahriar Jahan Rafi",
       weeks: "১-২",
       modules: {
         title:
@@ -339,7 +339,7 @@ export default function CourseCurriculum() {
     },
     {
       title: "সপ্তাহ ৩-৪: প্রোগ্রামিং কনসেপ্ট এবং SQL",
-      instructor: "Firoj Kawser Jubayer",
+      instructor: "Shahriar Jahan Rafi",
       weeks: "৩-৪",
       modules: {
         title: "মডিউল ২: প্রোগ্রামিংয়ের মৌলিক ধারণা এবং ডাটাবেস",
@@ -389,7 +389,7 @@ export default function CourseCurriculum() {
     },
     {
       title: "সপ্তাহ ৫-৬: ডেটা ম্যানিপুলেশন এবং ভিজুয়ালাইজেশন",
-      instructor: "Firoj Kawser Jubayer",
+      instructor: "Shahriar Jahan Rafi",
       weeks: "৫-৬",
       modules: {
         title: "মডিউল ৩: ডেটা ম্যানিপুলেশন এবং ভিজুয়ালাইজেশন",
@@ -429,7 +429,7 @@ export default function CourseCurriculum() {
     },
     {
       title: "সপ্তাহ ৭-৮: মেশিন লার্নিং এবং অ্যাডভান্সড টপিকস",
-      instructor: "Firoj Kawser Jubayer",
+      instructor: "Shahriar Jahan Rafi",
       weeks: "৭-৮",
       modules: {
         title: "মডিউল ৪: মেশিন লার্নিং এবং আনসুপারভাইজড লার্নিং",
