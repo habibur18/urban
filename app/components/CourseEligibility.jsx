@@ -1,0 +1,39 @@
+import { CheckCircle2 } from "lucide-react";
+
+const eligibilityPoints = [
+  {
+    text: "কোন লেভেল নলেজ নেই কিন্তু এসএসসি তাটা থেকে মিনিমাম ইংরাজি ও ডিসিশন নিতে চান",
+  },
+  {
+    text: "বিজনেস এ ডাটা এনালিটিক্স তৈরিতে যারা কাজ করতে চান",
+  },
+  {
+    text: "যোকোন ব্যাকগ্রাউন্ডের ইউন্টে যিনি ডাটা সায়েন্সে ক্যারিয়ার গড়তে চান",
+  },
+  {
+    text: "যার আগ্রহ এবং যারা চাকরির ডাটা সায়েন্স সেইটের ক্যারিয়ার শুরু করতে",
+  },
+];
+
+export default function CourseEligibility() {
+  return (
+    <section className="py-16 px-4">
+      <div className="container mx-auto">
+        <h2 className="text-3xl font-bold text-center mb-12">
+          কোর্সটি আপনারই জন্য
+        </h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {eligibilityPoints.map((point, index) => (
+            <div
+              key={index}
+              className="flex items-start gap-3 shadow-lg py-2 px-2"
+            >
+              <CheckCircle2 className="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
+              <p className="text-lg">{point.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
