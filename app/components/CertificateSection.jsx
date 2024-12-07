@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function CertificateSection() {
   return (
-    <div className="w-full max-w-6xl mx-auto px-4 py-16">
+    <div className="w-full max-w-7xl mx-auto px-4 py-16">
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-[#FF9900] mb-4">সার্টিফিকেট</h2>
         <p className="text-lg text-gray-700">

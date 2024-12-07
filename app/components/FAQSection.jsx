@@ -56,7 +56,7 @@ const faqData = [
 
 export default function FAQSection() {
   return (
-    <div className="w-full max-w-3xl mx-auto px-4">
+    <div className="w-full max-w-7xl mx-auto px-4 py-16">
       <h2 className="text-3xl font-bold mb-8 text-center">
         প্রায়ই জিজ্ঞেস করা <span className="text-yellow-500">প্রশ্ন</span>
       </h2>

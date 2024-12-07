@@ -4,7 +4,7 @@ import Image from "next/image";
 export default function HeroSection() {
   return (
     <main className="relative bg-[url('https://assets-global.website-files.com/5baa44fa6bf0bedd67643641/61e07b0bb85d3c05c4bb5bd2_hero-bg.jpg')] bg-cover bg-center min-h-[889px] flex flex-col items-center justify-center px-4">
-      <div className="container">
+      <div className="w-full max-w-7xl mx-auto px-4 py-16">
         <div className="text-center max-w-4xl mx-auto">
           <p className="text-sm font-medium text-gray-600 mb-4 bg-[#fff] inline-block px-3 py-1 rounded-full">
             Learning Platform
@@ -59,23 +59,6 @@ export default function HeroSection() {
             alt="Daffodil Group"
             className="rounded-lg"
           />
-          <div className=" hidden flex flex-wrap justify-center items-center gap-8 max-w-4xl mx-auto">
-            {[
-              "Google",
-              "Avado",
-              "ETH Zürich",
-              "Hyper Island",
-              "Animalz",
-              "Les",
-            ].map((company) => (
-              <div
-                key={company}
-                className="w-24 h-12 bg-white/30 rounded flex items-center justify-center"
-              >
-                {company}
-              </div>
-            ))}
-          </div>
         </div>
       </div>
 

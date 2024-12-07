@@ -159,7 +159,7 @@ import { Calendar, Clock, ClockAlert } from "lucide-react";
 
 export default function CourseLanding() {
   return (
-    <div className="flex flex-col items-center justify-center container mx-auto px-6">
+    <div className="flex flex-col items-center justify-center w-full max-w-7xl mx-auto px-4 py-16">
       {/* Header Section */}
       <div className="text-center mb-8 max-w-3xl mx-auto">
         <div className="inline-flex items-center gap-1.5 px-4 py-1.5 rounded-full bg-blue-50 text-blue-600 text-sm font-medium mb-10 hover:bg-blue-100 transition-colors cursor-pointer">
