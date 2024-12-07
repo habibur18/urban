@@ -15,11 +15,11 @@ export default function ComputerRequirements() {
       title: "প্রোগ্রামিং ফান্ডামেন্টালস জানা থাকলে ভালো",
     },
     {
-      icon: "/placeholder.svg?height=32&width=32",
+      icon: "/technology.png",
       title: "মিনিমাম Core i3 প্রসেসর",
     },
     {
-      icon: "/technology.png",
+      icon: "/ssd.png",
       title: "২৫৬ জিবি এসএসডি",
     },
     {

@@ -1,3 +1,4 @@
+import CertificateSection from "./components/CertificateSection";
 import ComputerRequirements from "./components/ComputerRequirements";
 import CourseCurriculum from "./components/CourseCurriculam";
 import CourseDescription from "./components/CourseDescription";
@@ -36,6 +37,9 @@ export default function Home() {
       </div>
       <div className="mb-32">
         <ComputerRequirements />
+      </div>
+      <div className="mb-32">
+        <CertificateSection />
       </div>
     </main>
   );
