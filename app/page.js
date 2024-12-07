@@ -1,3 +1,4 @@
+import ComputerRequirements from "./components/ComputerRequirements";
 import CourseCurriculum from "./components/CourseCurriculam";
 import CourseDescription from "./components/CourseDescription";
 import CourseEligibility from "./components/CourseEligibility";
@@ -30,8 +31,11 @@ export default function Home() {
       <div className="mb-32">
         <CourseEligibility />
       </div>
-      <div>
+      <div className="mb-32">
         <InstructorCard />
+      </div>
+      <div className="mb-32">
+        <ComputerRequirements />
       </div>
     </main>
   );

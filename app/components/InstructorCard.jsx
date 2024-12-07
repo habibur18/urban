@@ -3,11 +3,9 @@ import Image from "next/image";
 export default function InstructorCard() {
   return (
     <div className="max-w-2xl mx-auto p-6">
-      <h1 className="text-4xl font-bold text-center mb-8 text-orange-500">
-        ইন্সট্রাক্টর
-      </h1>
+      <h1 className="text-4xl font-bold text-center mb-8 ">ইন্সট্রাক্টর</h1>
 
-      <div className="bg-white rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
+      <div className="bg-white transform transition-all duration-300 hover:-translate-y-2 rounded-lg shadow-lg p-6 flex flex-col md:flex-row items-center gap-6">
         <div className="flex-1 space-y-4">
           <div className="inline-block">
             <div className="border border-purple-300 rounded-full px-4 py-1 text-purple-500 text-sm font-medium">
