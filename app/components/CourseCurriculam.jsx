@@ -237,7 +237,7 @@ export default function CourseCurriculum() {
                   <Image
                     width={24}
                     height={24}
-                    src="/mentor.jpg"
+                    src="/profile.png"
                     alt="Instructor"
                     className="w-8 h-8 rounded-full border border-white"
                   />
