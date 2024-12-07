@@ -489,7 +489,7 @@ export default function CourseCurriculum() {
       </h1>
 
       {/* Curriculum Container */}
-      <div className="max-w-7xl mx-auto p-6 bg-[#F9F9FA] rounded-lg shadow-lg">
+      <div className="max-w-7xl mx-auto py-10 px-6 bg-[#F9F9FA] rounded-lg shadow-lg">
         <div className="grid md:grid-cols-2 gap-8">
           {curriculum.map((section, sectionIndex) => (
             <div
