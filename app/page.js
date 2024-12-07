@@ -5,6 +5,7 @@ import CourseFeatures from "./components/CourseFeatures";
 import CourseLanding from "./components/CourseLanding";
 import DataScienceTools from "./components/DataScienceTools";
 import HeroSection from "./components/HeroSection";
+import InstructorCard from "./components/InstructorCard";
 
 export default function Home() {
   return (
@@ -28,6 +29,9 @@ export default function Home() {
       </div>
       <div className="mb-32">
         <CourseEligibility />
+      </div>
+      <div>
+        <InstructorCard />
       </div>
     </main>
   );
