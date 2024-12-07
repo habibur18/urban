@@ -1,4 +1,5 @@
 import CourseCurriculum from "./components/CourseCurriculam";
+import CourseDescription from "./components/CourseDescription";
 import CourseEligibility from "./components/CourseEligibility";
 import CourseFeatures from "./components/CourseFeatures";
 import CourseLanding from "./components/CourseLanding";
@@ -12,6 +13,10 @@ export default function Home() {
       <CourseLanding />
       <div className="my-32">
         <CourseCurriculum />
+      </div>
+
+      <div className="mb-32">
+        <CourseDescription />
       </div>
 
       <div className="mb-32">
