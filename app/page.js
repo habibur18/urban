@@ -14,7 +14,7 @@ import TestimonialCarousel from "./components/TestimonialCarousel";
 
 export default function Home() {
   return (
-    <main className="py-16">
+    <main className="">
       <MainBanner />
       <HeroSection />
       <CourseLanding />
