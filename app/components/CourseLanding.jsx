@@ -202,9 +202,9 @@ export default function CourseLanding() {
           ].map((stat, i) => (
             <div
               key={i}
-              className="bg-white rounded-2xl p-8 text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
+              className="bg-white rounded-2xl border  border-blue-600 h-max p-px text-center transition-all duration-300 hover:shadow-xl hover:-translate-y-2"
             >
-              <div className="text-3xl font-bold mb-4 bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
+              <div className="text-3xl font-bold  bg-gradient-to-r from-blue-600 to-blue-800 bg-clip-text text-transparent">
                 {stat.number}
               </div>
               <div className="text-gray-600 text-lg">{stat.label}</div>
